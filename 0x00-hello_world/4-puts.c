@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main- C program that prints something
- * Description- you are not allowed to use printf
+ * main - Entry point
+ * Return: Always 0 (succcess)
 */
+
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
