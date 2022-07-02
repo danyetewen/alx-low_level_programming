@@ -6,7 +6,7 @@
  * main -> Entry point, positive negative or zero print sign of random number
  * _void: empty parameter list for main
  * Description: positive, negative value and zero
- * Return :0 for success
+ * Return : Zero for success
 **/
 
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
 		printf("%d is positive\n", n);
 	if (n == 0)
 		printf("%d is zero\n", n);
-	if (n < o)
+	if (n < 0)
 {
 		printf("%d is negative\n", n);
 }
