@@ -2,15 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main -> Entry point, positive negative or zero print sign of random number
- * _void: empty parameter list for main
- * Description: positive, negative value and zero
- * Return : Zero for success
-**/
-
+/**
+* main - Entry point, positive negative or zero print sign of random number
+* Description: positive, negative value and zero
+* Return: Zero for success
+*/
 int main(void)
-
 {
 	int n;
 
