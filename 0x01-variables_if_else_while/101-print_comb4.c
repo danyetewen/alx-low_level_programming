@@ -22,7 +22,7 @@ int main(void)
 					putchar(j);
 					putchar(k);
 
-					if ((i + j + k) <=)
+					if ((i + j + k) < 168)
 					{
 						putchar(',');
 						putchar(' ');
