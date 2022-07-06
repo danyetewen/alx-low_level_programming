@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_to_98 -  print n to 98 counts
- * @n: input
+ *print_to_98 -  print n to 98 counts
+ *@n: input
 */
 
-void print_to_98(int n)
+void print_to_98(int n);
 {
 	int count;
 
