@@ -55,7 +55,7 @@ int main(void)
 		f1 = f2;
 		f1o = f2o;
 		f2 = sum;
-		f2o = sumo
+		f2o = sumo;
 
 		if (count != 98)
 			printf(", ");
