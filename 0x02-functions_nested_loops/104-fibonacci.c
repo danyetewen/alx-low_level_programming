@@ -58,7 +58,7 @@ int main(void)
 	       f2o = sumo;
 
 	       if (count != 98)
-		       prinf(", ");
+		       printf(", ");
 	       else
 		       printf("\n");
 	}
