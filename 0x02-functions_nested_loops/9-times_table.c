@@ -7,7 +7,7 @@
  * 0, 1, 2, 3, ...
 **/
 
-void time_table(void)
+void times_table(void)
 {
 	int num, mult, prod;
 
@@ -35,4 +35,4 @@ void time_table(void)
 		}
         	_putchar('\n');
 	}
-}
+i}
