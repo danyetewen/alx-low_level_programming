@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description: print value of n status; zero, positive or negative
- * Return: always o (success)
+ *main - Entry point
+ *Description: print value of n status; zero, positive or negative
+ *Return: always 0 (success)
 */
 
 void positive_or_negative(int i)
 {
-	/* my if statement */
-	if (i == 0) 
+	/*my if statement*/
+	if (i == 0)
 	{
 		printf("%d is zero\n", i);
 	}
@@ -22,4 +22,3 @@ void positive_or_negative(int i)
 		printf("%d is negative\n", i);
 	}
 }
-
