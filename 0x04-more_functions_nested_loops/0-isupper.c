@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _isupper - ccheck if c is upper
  * @c: input for alphabet
