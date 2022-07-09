@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - print number 1-100 followed by a new line 
  *Return:  Always 0 (success)
 */
 
- int main(void)
+void fizz_buzz(void)
 {
 	int num;
 
