@@ -6,7 +6,7 @@
  * Return: always 0 (successs)
 */
 
-void print_square(int size)
+void print_square(0)
 {
 	int row, column;
 
