@@ -3,13 +3,10 @@
 /**
  * _isupper - ccheck if c is upper
  * @c: input for alphabet
- * Return: 1 if its uppercase, 0 if not
+ * Return: only success
 */
 
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
-		return (1);
-	else
-		return (0);
+	Return (c >= 'A' && c <= 'Z');
 }
