@@ -9,7 +9,7 @@
  *Return: pointer to dest input parameter
 */
 
-chart *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int a, b = 0;
 
