@@ -1,4 +1,5 @@
 #include "html.h"
+#include <string.h>
 
 /**
  * *_strncpy - a function that copies a string.
