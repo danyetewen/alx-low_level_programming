@@ -3,12 +3,12 @@
 
 /**
  * _strcat - function tht concatenates two strings.
- * @dest : pointer to destination input
- * @src : pointer to resulting string @dest
+ * @dest: pointer to destination input
+ * @src: pointer to resulting string @dest
  * Return: pointer to resulting string @dest
 */
 
-char *_strcat(char *des, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int c = 0, c2;
 
@@ -20,7 +20,3 @@ char *_strcat(char *des, char *src)
 
 	return (dest);
 }
-	
-
-
-
