@@ -3,22 +3,24 @@
 /**
  * reverse_arry - a function that reverse the content of an array of integers
  * @a: pointer to int array
- * @n: is the number of elements to swap
- * Return nothing
+ * @n: an element of a an array
+ * Return: no return value
 */
 
-void reverse_ array(int *a, int n)
+void reverse_array(int *a, int n)
 {
-	int *temp, f, s, e;
+	int *p, i, aux, k;
 
-	temp = a;
-	for (f = 0; f < n; f++)
-		temp++;
-	for (e = 0; e <= n / 2; e++)
+	p = a;
+	for (i = 0; i < n; i++)
+		p++;
+	for (k = 0; k <= n / 2; k++)
 	{
-		s = a[e];
-		a[e] = *temp;
-		*temp =  s;
-		temp--;
+		aux = a[k];
+		a[k] = *p;
+		*p = aux;
+		p--;
 	}
 }
+
+
