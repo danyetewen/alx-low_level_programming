@@ -16,7 +16,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 	/* calculate size of str*/
-	while (str[1] != '\0')
+	while (str[l] != '\0')
 		l++;
 
 	s = malloc((l + 1) * sizeof(char));
