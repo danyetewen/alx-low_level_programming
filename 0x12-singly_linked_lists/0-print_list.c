@@ -11,7 +11,7 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t node_count = 1
+	size_t node_count = 1;
 
 	/*return 0 as number of nodes*/
 	if (h == NULL)
