@@ -8,7 +8,7 @@
  * Return: NULL if it fails / starting addr of the list
 */
 
-list_t *add_node(list_t **head, const char *str
+list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_node;
 	size_t str_len = 0;
