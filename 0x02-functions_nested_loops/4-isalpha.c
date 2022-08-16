@@ -3,7 +3,7 @@
 /**
  * _isalpha - checks if character is a letter both lowercase or uppercase
  * @c: takes unput from other functions.
- * Return: 1 isc if rue else 0
+ * Return: 1 is c if rule else 0
 */
 
 int _isalpha(int c)
@@ -12,5 +12,3 @@ int _isalpha(int c)
 		return (1);
 	return (0);
 }
-
-
